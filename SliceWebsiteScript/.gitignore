@@ -1,0 +1,11 @@
+# Ignorar la carpeta .idea
+.idea/
+
+# Ignorar todo en .venv excepto la carpeta Scripts y el archivo .py principal
+.venv/*
+!.venv/Scripts/
+.venv/Scripts/*
+!.venv/Scripts/*.py
+
+# Ignorar archivo específico que no se debe subir
+activate_this.py
