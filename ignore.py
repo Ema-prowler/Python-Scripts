@@ -14,6 +14,9 @@ def crear_gitignore_proyecto(proyecto_path):
 
 # Ignorar archivo específico que no se debe subir
 activate_this.py
+
+# No ignorar el archivo readme.txt dentro de .venv/Scripts
+!.venv/Scripts/readme.txt
     """
 
     with open(gitignore_path, 'w') as gitignore_file:

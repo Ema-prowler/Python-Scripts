@@ -1,0 +1,1 @@
+El script slicewebsite.py extrae una cadena de texto en este caso esta creado para extraer la cadena de texto que hay entre el primer " . " y el segundo " . " el nombre del sitio web, ejemplo: www.google.com.ar, extrae "google"
